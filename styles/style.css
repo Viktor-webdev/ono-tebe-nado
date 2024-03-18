@@ -287,13 +287,13 @@
 
 .footer {
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
   justify-content: space-between;
-  padding: 25px 50px 80px;
+  padding: 42px 50px 80px;
 }
 
 .footer__address {
-  margin-top: 10px;
+  /*margin-top: 10px;*/
 }
 
 .footer__menu-list {
@@ -305,8 +305,14 @@
   line-height: 21px;
 }
 
+.footer__menu-link {
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
 .footer__menu-link_active {
   text-decoration: none;
+  border-bottom: none;
 }
 
 .footer__social-list {
@@ -314,6 +320,10 @@
   gap: 48px;
   margin-bottom: 15px;
   list-style: none;
+}
+
+.footer__social-link {
+  text-decoration: none;
 }
 
 .footer__social-icon {
