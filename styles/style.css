@@ -210,11 +210,11 @@
 }
 
 .card_type_book {
-  background: url(../images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background: url(../images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .lots__look-more-link {
@@ -257,7 +257,6 @@
 .about__logo-image {
   display: flex;
   margin: auto;
-  background-size: cover;
   width: 142px;
   height: 113px;
 }
@@ -287,7 +286,6 @@
 
 .footer {
   display: flex;
-  /*align-items: center;*/
   justify-content: space-between;
   padding: 42px 50px 80px;
 }
@@ -307,7 +305,6 @@
 }
 
 .footer__menu-link_active {
-  text-decoration: none;
   border-bottom: none;
 }
 
